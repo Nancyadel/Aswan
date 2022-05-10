@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:peachpuff;
+    direction: ltr;
+}
+.container
+{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+ul {
+    padding: 0;
+    margin: 0;
+   }
+header {
+    background-color: darksalmon;
+    color: darkred;
+    padding-top: 25px;
+    min-height: 60px;
+    border-bottom: darkred 4px solid;
+}
+    header a {
+        color: darkred;
+        text-decoration: none;
+        font-size: 19px;
+    }
+header li {
+   float:left;
+   display:inline;
+   padding:0 20px 0 20px;
+
+}
+    header #brand {
+        float: left;
+        
+    }
+        header #brand h1 {
+            margin: 0;
+            color: darkred;
+        }
+    header nav {
+        float: right;
+        margin-top:10px;
+    }
+    header .current a {
+        margin-left: 20px;
+        color: antiquewhite;
+        font-weight: bold;
+    }
+    header a:hover {
+        color:darkolivegreen;
+        font-weight: bold;
+        
+    }
+#showcase {
+    min-height: 500px;
+    background: url("../media/a5.jpg") no-repeat center;
+    background-size: cover;
+}
+#newletter {
+    padding: 0;
+    color: antiquewhite;
+    background-color: brown;
+    font-weight: lighter;
+}
+    #newletter:hover {
+        padding: 0;
+        background-color: antiquewhite;
+        font-weight: lighter;
+             color:peru;
+    }
+    #newletter h1 {
+        float: left;
+    }
+    #boxes
+    {
+        margin-top:20px;
+
+    }
+ #boxes .box  {
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+   
+        }
+footer {
+    padding: 10px;
+    background-color:brown;
+    color: antiquewhite;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+}
